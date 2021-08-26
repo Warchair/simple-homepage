@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap');
+
+@import "tailwindcss/base";
+@import "tailwindcss/components";
+@import "tailwindcss/utilities";
+
+.scroll {
+    scroll-behavior: smooth;
+}
+
+.width-calc {
+    width:calc(100% - 70px);
+}
+
+.z-minus {
+    z-index: -99;
+}
+
+.svg {
+    z-index: 15;
+    width: 100%;
+    height: 5vw;
+    fill: rgb(245, 245, 245);
+}
+
+.poligon {
+        border-radius: 1rem;
+}
+
+.gray {
+    background-color: rgb(245, 245, 245);
+}
+
+.z-min {
+    z-index: -2;
+}
+
+.star {
+    fill:orange;
+}
+
+    .divplus {
+        background: linear-gradient(rgba(255, 255, 255, 0),rgba(255, 255, 255, .900))
+    }
+
+    .divplus2 {
+        background: linear-gradient(rgba(169, 77, 255, 0.637),rgba(169, 77, 255, 0.9))
+    }
+
+    .bg-cover {
+        background-color: #574770;
+    }
+    .w-fix {
+        min-width:300px;
+    }
